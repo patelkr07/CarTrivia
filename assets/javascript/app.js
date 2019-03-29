@@ -114,13 +114,17 @@ const questions = [
 
 ];
 
+let randomQ = [Math.floor(Math.random() * questions.length)];
 
-document.getElementById("quest").innerHTML = questions[0].question;
+console.log(randomQ)
 
-document.getElementById("a1").innerHTML = "test";
-document.getElementById("a2").innerHTML = "test2";
-document.getElementById("a3").innerHTML = "test3";
-document.getElementById("a4").innerHTML = "test4";
+
+document.getElementById("quest").innerHTML = questions[randomQ].question;
+
+document.getElementById("a1").innerHTML = questions[randomQ].choices.a;
+document.getElementById("a2").innerHTML = questions[randomQ].choices.b;
+document.getElementById("a3").innerHTML = questions[randomQ].choices.c;
+document.getElementById("a4").innerHTML = questions[randomQ].choices.d;
 
 
 
