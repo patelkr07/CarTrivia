@@ -115,7 +115,13 @@ const questions = [
 ];
 
 
-document.getElementById("quest").innerHTML = questions[0].question
+document.getElementById("quest").innerHTML = questions[0].question;
+
+document.getElementById("a1").innerHTML = "test";
+document.getElementById("a2").innerHTML = "test2";
+document.getElementById("a3").innerHTML = "test3";
+document.getElementById("a4").innerHTML = "test4";
+
 
 
 });
