@@ -1,0 +1,25 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.body {
+    position: relative;
+    margin-top: 50px;
+}
+
+.question {
+    font-size: 30px;
+}
+
+.answers {
+    font-size: 25px;
+    position: relative; 
+    margin-top: 20px;
+}
+
+.timeRem {
+    position: relative;
+    margin-top: 80px;
+}

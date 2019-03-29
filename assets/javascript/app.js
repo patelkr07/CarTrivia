@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-    $("button").click(function() {
-        
-    });
-
-}); 
-
 const questions = [
     {
         question: "A dynamometer is used to measure...", 
@@ -41,10 +35,32 @@ const questions = [
     },
 
     {
-        question: "Hellcat HP", 
+        question: "Which of the following vehicles is NOT fully electric?", 
 
         choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
+            a: "Tesla Model S", b: "Nissan Leaf", c: "Fisker Karma", d: "Jaguar I-PACE"
+        },
+
+        answer: "c"
+
+    },
+
+    {
+        question: "The 2015 Dodge Challenger SRT Hellcat has more horsepower than which of the following cars?", 
+
+        choices: {
+            a: "2019 Ferrari PortoFino", b: "2018 Lamborghini Huracan", c: "2016 Honda Accord LX", d: "All of the above"
+        },
+
+        answer: "d"
+
+    },
+
+    {
+        question: "VTEC is a feature of which of the following cars?", 
+
+        choices: {
+            a: "Ford Focus", b: "Acura RSX Type-S", c: "Toyota Camry", d: "Aston Martin Vanquish"
         },
 
         answer: "b"
@@ -52,77 +68,54 @@ const questions = [
     },
 
     {
-        question: "Example question 5", 
+        question: "In 1997, Car & Driver magazine named this vehicle the Best Handling Car at any price range:", 
 
         choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
+            a: "BMW M3", b: "Chevrolet Corvette", c: "Porsche Boxster", d: "Ferrari F355"
         },
 
-        answer: "b"
+        answer: "a"
 
     },
 
     {
-        question: "Example question 6", 
+        question: "This recent technological innovation can be exploited by thieves to break into and/or steal certain cars", 
 
         choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
+            a: "Blind spot detection", b: "Adaptive cruise control", c: "Remote keyless entry", d: "Lane departure technology"
         },
 
-        answer: "b"
+        answer: "c"
 
     },
 
     {
-        question: "Example question 7", 
+        question: "This sports car shares an engine with several Toyota models, including the Corolla and the Celica:", 
 
         choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
+            a: "2018 Lexus LC500", b: "2002 Toyota Supra", c: "2004 Lotus Exige", d: "2008 Honda S2000"
         },
 
-        answer: "b"
+        answer: "c"
 
     },
 
     {
-        question: "Example question 8", 
+        question: "Italian-born Bruno Sacco is famous for his role as head designer of which car manufacturer from 1975-1999?", 
 
         choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
+            a: "Alfa Romeo", b: "Ferrari", c: "Mercedes-Benz", d: "Fiat"
         },
 
-        answer: "b"
+        answer: "c"
 
     },
-
-    {
-        question: "Example question 9", 
-
-        choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
-        },
-
-        answer: "b"
-
-    },
-
-    {
-        question: "Example question 10", 
-
-        choices: {
-            a: "example answer 1", b: "example answer 2", c: "example answer 3", d: "example answer 4"
-        },
-
-        answer: "b"
-
-    },
-
-
-
-
-
 
 ];
 
-console.log(questions[5]); 
+document.write(questions[0].question)
+
+document.write(questions[0].answer)
+
+});
 
