@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    
 const questions = [
     {
         question: "A dynamometer is used to measure...", 
@@ -114,6 +115,9 @@ const questions = [
 ];
 
 
+document.getElementById("quest").innerHTML = questions[0].question
+
 
 });
+
 
