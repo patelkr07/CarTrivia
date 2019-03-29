@@ -11,12 +11,29 @@
 
 .question {
     font-size: 30px;
+
 }
 
 .answers {
-    font-size: 25px;
+    font-size: 30px;
     position: relative; 
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.answer1 {
+    font-size: 24px;
+}
+
+.answer2 {
+    font-size: 24px;
+}
+
+.answer3 {
+    font-size: 24px;
+}
+
+.answer4 {
+    font-size: 24px;
 }
 
 .timeRem {

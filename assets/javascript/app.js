@@ -113,9 +113,7 @@ const questions = [
 
 ];
 
-document.write(questions[0].question)
 
-document.write(questions[0].answer)
 
 });
 
