@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    
+//array to hold all of the questions/choices/answers    
 const questions = [
     {
         question: "A dynamometer is used to measure...", 
@@ -114,20 +114,72 @@ const questions = [
 
 ];
 
+
+
+
+
+
+//picks a random question
 let randomQ = [Math.floor(Math.random() * questions.length)];
 
-console.log(randomQ)
+//variable for correct answer
+let solution = questions[randomQ].answer;
+
+
+//variable for guess
+let guess = "";
+
+
+console.log(randomQ);
 
 
 document.getElementById("quest").innerHTML = questions[randomQ].question;
 
+
 document.getElementById("a1").innerHTML = questions[randomQ].choices.a;
 document.getElementById("a2").innerHTML = questions[randomQ].choices.b;
 document.getElementById("a3").innerHTML = questions[randomQ].choices.c;
-document.getElementById("a4").innerHTML = questions[randomQ].choices.d;
+document.getElementById("a4").innerHTML = questions[randomQ].choices.d; 
+
+$("#a1").click(function() {
+    let guess = "a";
+    alert("This is a test1")
+    console.log(guess);   
+
+});
+
+$("#a2").click(function() {
+    let guess = "b";
+    alert("this is a test2")
+    console.log(guess);
+
+});
+
+$("#a3").click(function() {
+    let guess = "c";
+    alert("this is a test3")
+    console.log(guess);
+});
+
+$("#a4").click(function() {
+    let guess = "d";
+    alert("this is a test 4")
+    console.log(guess);
+
+});
+
+
+console.log(questions[0].answer)
+
+console.log(questions[4].answer)
+
+console.log(questions[8].answer)
+
+console.log(questions[randomQ].answer)
+
+console.log(solution);
 
 
 
 });
-
 
